@@ -5,9 +5,17 @@
     */
 
     //ENTRADA
-
-    
+    let num = prompt('Informe um número inteiro');
     //PROCESSAMENTO
+    switch (num % 2) {
+        case 0: alert(`O número ${num} é par`);
+        break;
+        case 1: alert(`O número ${num} é impar`);
+        break;
+    default:
+        alert('Número inválido')
+    }
+
 
     
     //SAÍDA

@@ -12,10 +12,20 @@
     */
 
     //ENTRADA
+    let turno = prompt('Informe o turno em que você estuda, digitando M (matutino), V (vespertino) e N (noturno)').toUpperCase();
     
     
     //PROCESSAMENTO
-
+    switch (turno) {
+        case "M" : alert('Bom dia!');
+        break;
+        case "V" : alert('Boa tarde');
+        break;
+        case "N" : alert('Boa noite');
+        break;
+        default : alert('Dígito Invalido')
+        break;
+    }
     
     //SAÍDA
 
